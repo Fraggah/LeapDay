@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://dee3ple0frd30"]
+
+[ext_resource type="Script" uid="uid://v34efuwwraem" path="res://autoloads/sound_manager.gd" id="1_xy5rq"]
+[ext_resource type="AudioStream" uid="uid://djprx000saa63" path="res://LeapNight Assets/Sound/Pixelated Serenade (1).mp3" id="2_xy5rq"]
+
+[node name="SoundManager" type="Node"]
+script = ExtResource("1_xy5rq")
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_xy5rq")
+autoplay = true
+bus = &"Music"
+
+[node name="SFXStreams" type="Node" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="SFXStreams"]
+bus = &"SFX"
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="SFXStreams"]
+bus = &"SFX"
+
+[node name="AudioStreamPlayer3" type="AudioStreamPlayer" parent="SFXStreams"]
+bus = &"SFX"
+
+[node name="AudioStreamPlayer4" type="AudioStreamPlayer" parent="SFXStreams"]
+bus = &"SFX"

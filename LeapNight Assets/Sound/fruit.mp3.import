@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b2fyrxdsyrp4k"
+path="res://.godot/imported/fruit.mp3-9565b9faa7e144d6396befc1107c5744.mp3str"
+
+[deps]
+
+source_file="res://LeapNight Assets/Sound/fruit.mp3"
+dest_files=["res://.godot/imported/fruit.mp3-9565b9faa7e144d6396befc1107c5744.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
